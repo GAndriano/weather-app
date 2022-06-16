@@ -33,7 +33,7 @@ const loadSite = (() => {
 
   const news = document.querySelector('.news')
   news.addEventListener('click', () => {
-    const searchValue = searchBar.value
+    const searchValue = cityName.textContent
     window.open(`https://news.google.com/search?q=${searchValue}`, '_blank')
   })
 
