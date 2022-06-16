@@ -45,14 +45,20 @@ button {
 
 .title {
     cursor: default;
-    -webkit-text-stroke: 0.01em;
-    -webkit-text-stroke-color: #38bdf8;
+    text-shadow:
+   -1px -1px 0 #38bdf8,  
+    1px -1px 0 #38bdf8,
+    -1px 1px 0 #38bdf8,
+    1px 1px 0 #38bdf8;
 }
 
 .news {
     cursor: pointer;
-    -webkit-text-stroke: 0.01em;
-    -webkit-text-stroke-color: #38bdf8;
+    text-shadow:
+    -1px -1px 0 #38bdf8,  
+     1px -1px 0 #38bdf8,
+     -1px 1px 0 #38bdf8,
+     1px 1px 0 #38bdf8;
 }
 
 .news:hover {
@@ -127,8 +133,11 @@ button {
     font-size: 30px;
     font-weight: bold;
     color: white;
-    -webkit-text-stroke: 0.04em;
-    -webkit-text-stroke-color: black;
+    text-shadow:
+   -1px -1px 0 black,  
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
 }
 
 .tempbox {
@@ -143,15 +152,21 @@ button {
     color: white;
     font-size: 60px;
     font-weight:bold;
-    -webkit-text-stroke: 0.01em;
-    -webkit-text-stroke-color: black;
+    text-shadow:
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+     -1px 1px 0 black,
+     1px 1px 0 black;
 }
 
 .c1,.c2,.c3,.c4,.c5 {
     font-size: 30px;
     color: white;
-    -webkit-text-stroke: 0.04em;
-    -webkit-text-stroke-color: black;
+    text-shadow:
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+     -1px 1px 0 black,
+     1px 1px 0 black;
 }
 
 /** weather condition gifs **/
