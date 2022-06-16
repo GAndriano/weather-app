@@ -63,29 +63,29 @@ const loadSite = (() => {
       c1.textContent = `${cTemp1}°C`
       getGif(data.list[0].weather[0].main, day1)
 
-      const fTemp2 = toFahrenheit(data.list[1].main.temp_max)
+      const fTemp2 = toFahrenheit(data.list[7].main.temp_max)
       f2.textContent = `${fTemp2}°F`
-      const cTemp2 = toCelsius(data.list[1].main.temp_max)
+      const cTemp2 = toCelsius(data.list[7].main.temp_max)
       c2.textContent = `${cTemp2}°C`
-      getGif(data.list[1].weather[0].main, day2)
+      getGif(data.list[7].weather[0].main, day2)
 
-      const fTemp3 = toFahrenheit(data.list[2].main.temp_max)
+      const fTemp3 = toFahrenheit(data.list[9].main.temp_max)
       f3.textContent = `${fTemp3}°F`
-      const cTemp3 = toCelsius(data.list[2].main.temp_max)
+      const cTemp3 = toCelsius(data.list[9].main.temp_max)
       c3.textContent = `${cTemp3}°C`
-      getGif(data.list[2].weather[0].main, day3)
+      getGif(data.list[9].weather[0].main, day3)
 
-      const fTemp4 = toFahrenheit(data.list[3].main.temp_max)
+      const fTemp4 = toFahrenheit(data.list[24].main.temp_max)
       f4.textContent = `${fTemp4}°F`
-      const cTemp4 = toCelsius(data.list[3].main.temp_max)
+      const cTemp4 = toCelsius(data.list[24].main.temp_max)
       c4.textContent = `${cTemp4}°C`
-      getGif(data.list[3].weather[0].main, day4)
+      getGif(data.list[24].weather[0].main, day4)
 
-      const fTemp5 = toFahrenheit(data.list[4].main.temp_max)
+      const fTemp5 = toFahrenheit(data.list[32].main.temp_max)
       f5.textContent = `${fTemp5}°F`
-      const cTemp5 = toCelsius(data.list[4].main.temp_max)
+      const cTemp5 = toCelsius(data.list[32].main.temp_max)
       c5.textContent = `${cTemp5}°C`
-      getGif(data.list[4].weather[0].main, day5)
+      getGif(data.list[32].weather[0].main, day5)
 
       console.log(data)
     } catch (error) {

@@ -1,5 +1,5 @@
 const weatherData = async (search) => {
-  const response = await fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${search}&APPID=7a41083a83816558e112654d2548c359&cnt=5`, {
+  const response = await fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${search}&APPID=7a41083a83816558e112654d2548c359`, {
     mode: 'cors'
   })
   const data = await response.json()
