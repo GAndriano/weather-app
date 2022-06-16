@@ -86,8 +86,6 @@ const loadSite = (() => {
       const cTemp5 = toCelsius(data.list[32].main.temp_max)
       c5.textContent = `${cTemp5}°C`
       getGif(data.list[32].weather[0].main, day5)
-
-      console.log(data)
     } catch (error) {
       errorText.style.opacity = '1'
       cityName.textContent = ''
